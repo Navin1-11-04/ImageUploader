@@ -1,0 +1,245 @@
+.main-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fafafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 10px;
+  font-size: 13px !important;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+#username {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.main-container {
+  width: 402px;
+  height: 469px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 338px;
+  height: 397px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#form-title {
+  color: #4f4f4f;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#form-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  margin: 5px 0;
+  color: #828282;
+  text-align: center;
+}
+
+.main-subcontainer {
+  width: 338px;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-uploader {
+  background: #f6f8fb;
+  width: 100%;
+  height: 219px;
+  border-radius: 12px;
+  border: 1px dashed #97bef4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#spacer {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #bdbdbd;
+  margin: 16px 0;
+}
+
+#form-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #bdbdbd;
+  text-align: center;
+}
+
+#upload-icon,
+#upload-preview {
+  width: 114px;
+  height: 88px;
+  margin-bottom: 16px;
+}
+
+.submit-btn {
+  width: 101px;
+  height: 32px;
+  background: #2f80ed;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* main.css */
+.uploading-container {
+  width: 400.36px;
+  height: 143.57px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px 0px #0000001a;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 10px 30px;
+  justify-content: center;
+  align-items: start;
+}
+
+#uploading-title {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  color: #4f4f4f;
+}
+
+.progress-bar {
+  width: 340.71px;
+  height: 6px;
+  display: flex;
+  border-radius: 8px;
+  margin-top: 20px;
+  background: #f2f2f2;
+}
+
+.progress {
+  background: #2f80ed;
+  height: 6px;
+  display: flex;
+  border-radius: 8px;
+}
+
+/* main.css */
+
+.success-container {
+  width: 400.36px;
+  height: 454.96px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px 0px #0000001a;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.success-conatiner-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  text-align: center;
+  color: #4f4f4f;
+  gap: 18px;
+}
+
+#success-preview {
+  width: 338px;
+  height: 224.4px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+#copy-btn {
+  width: 74px;
+  height:35px;
+  background-color: #2f80ed;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.035em;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#copy-link{
+  width:calc(100% - 30px);
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+.success-link-container {
+  width: 338px;
+  padding:5px;
+  background: #f6f8fb;
+  border: 1px solid #e0e0e0;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.035em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4f4f4f;
+  border-radius: 8px;
+  margin-top: 20px;
+}
