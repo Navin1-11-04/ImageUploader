@@ -24,10 +24,6 @@ const upload = multer({ storage });
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use("/",(req,res)=>{
-  res.send('Hello,server is running!!');
-});
-
 app.post('/upload', upload.single('image'), (req, res) => {
   if (!req.file) {
     return res.status(400).json({ error: 'No file uploaded' });
