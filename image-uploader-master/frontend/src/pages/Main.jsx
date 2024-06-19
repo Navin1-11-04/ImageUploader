@@ -26,7 +26,7 @@ function Main() {
         const formData = new FormData();
         formData.append('image', file);
 
-        const response = await fetch('http://localhost:5000/upload', {
+        const response = await fetch('https://image-uploader-server-two.vercel.app/upload', {
           method: 'POST',
           body: formData,
         });
